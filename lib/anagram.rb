@@ -7,14 +7,16 @@ class Anagram
 
   def match(word_array)
     anagrams = []
-    array_word = word.split("").sort
+
+    sorted_word = @word.split("").sort
+
     word_array.each do |word|
       array_words = word.split("").sort
       if array_words == array_word
         anagrams << word
       end
     end
-    anagrams 
+    anagrams
   end
 
   end
