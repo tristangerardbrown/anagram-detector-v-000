@@ -10,11 +10,11 @@ class Anagram
 
     word_array.each do |word|
       word2 = word.split("").sort
-      if word2 == @word.split("").sort
+      if word2 == word.split("").sort
         anagrams << word
       end
     end
-    anagrams 
+    anagrams
   end
 
   end
