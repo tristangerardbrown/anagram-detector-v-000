@@ -12,7 +12,8 @@ class Anagram
       array_words = word.split("").sort
       if array_words == array_word
         anagrams << word
-      end 
+      end
+    end 
   end
 
   end
