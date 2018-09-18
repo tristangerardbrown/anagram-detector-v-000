@@ -12,7 +12,7 @@ class Anagram
 
     word_array.each do |word|
       array_words = word.split("").sort
-      if array_words == array_word
+      if array_words == sorted_word
         anagrams << word
       end
     end
