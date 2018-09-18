@@ -1,13 +1,13 @@
-class Anagram 
-  attr_accessor :word 
+class Anagram
+  attr_accessor :word
 
   def intialize(word)
-    @word = word 
+    @word = word
     anagrams = %w(anagrams)
-  end 
+  end
 
   def match(anagrams)
-    anagrams = 
-  end 
 
-  end 
+  end
+
+  end
