@@ -11,8 +11,8 @@ class Anagram
     sorted_word = @word.split("").sort
 
     word_array.each do |word|
-      array_words = word.split("").sort
-      if array_words == sorted_word
+      word2= word.split("").sort
+      if word2 == sorted_word
         anagrams << word
       end
     end
