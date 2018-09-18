@@ -13,8 +13,8 @@ class Anagram
       if array_words == array_word
         anagrams << word
       end
-      anagrams 
     end
+    anagrams 
   end
 
   end
